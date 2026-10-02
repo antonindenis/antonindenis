@@ -7,3 +7,143 @@ backend:
 
 site_url: https://antonindenis.antonindenis.workers.dev
 display_url: https://antonindenis.antonindenis.workers.dev
+logo_url: /images/hero.jpg
+
+media_folder: "images"
+public_folder: "/images"
+
+publish_mode: simple
+locale: "fr"
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "contenu"
+        label: "Contenu du site"
+        file: "content/site.json"
+        fields:
+
+          - label: "En-tête (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Accroche (petit texte au-dessus du titre)", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+              - { label: "Texte de présentation", name: "text", widget: "text" }
+              - { label: "Texte du bouton", name: "cta_label", widget: "string" }
+              - { label: "Lien du bouton", name: "cta_url", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Chiffre 1", name: "stat_1", widget: "string" }
+              - { label: "Libellé chiffre 1", name: "stat_1_label", widget: "string" }
+              - { label: "Chiffre 2", name: "stat_2", widget: "string" }
+              - { label: "Libellé chiffre 2", name: "stat_2_label", widget: "string" }
+              - { label: "Chiffre 3", name: "stat_3", widget: "string" }
+
+          - label: "Mon approche"
+            name: "approche"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "kicker", widget: "string" }
+              - { label: "Titre (HTML autorisé, <br> pour retour à la ligne)", name: "title", widget: "string" }
+              - { label: "Paragraphe 1", name: "text_1", widget: "text" }
+              - { label: "Paragraphe 2", name: "text_2", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image" }
+
+          - label: "Les 3 piliers"
+            name: "piliers"
+            widget: "list"
+            fields:
+              - { label: "Numéro", name: "numero", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Texte", name: "texte", widget: "text" }
+
+          - label: "Photo bandeau (avant Formations)"
+            name: "formation_banner_image"
+            widget: "image"
+
+          - label: "Formations"
+            name: "formations"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Sous-titre", name: "soustitre", widget: "string" }
+              - label: "Liste des formations"
+                name: "liste"
+                widget: "list"
+                fields:
+                  - { label: "Titre", name: "titre", widget: "string" }
+                  - { label: "Texte", name: "texte", widget: "text" }
+              - label: "Autres offres (Team building, sur-mesure...)"
+                name: "extra"
+                widget: "list"
+                fields:
+                  - { label: "Titre", name: "titre", widget: "string" }
+                  - { label: "Texte", name: "texte", widget: "text" }
+
+          - label: "Références clients"
+            name: "references"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Texte", name: "texte", widget: "text" }
+              - { label: "Chiffre (ex: +300)", name: "stat", widget: "string" }
+              - { label: "Libellé du chiffre", name: "stat_label", widget: "string" }
+              - label: "Liste des entreprises"
+                name: "liste"
+                widget: "list"
+                field: { label: "Nom", name: "nom", widget: "string" }
+
+          - label: "Mon parcours"
+            name: "parcours"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Sous-titre", name: "soustitre", widget: "string" }
+              - { label: "Texte", name: "texte", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - label: "Chiffres clés"
+                name: "chiffres"
+                widget: "list"
+                fields:
+                  - { label: "Valeur", name: "valeur", widget: "string" }
+                  - { label: "Libellé", name: "label", widget: "string" }
+
+          - label: "Témoignages"
+            name: "temoignages"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - label: "Liste des témoignages"
+                name: "liste"
+                widget: "list"
+                fields:
+                  - { label: "Citation", name: "citation", widget: "text" }
+                  - { label: "Prénom", name: "prenom", widget: "string" }
+                  - { label: "Fonction", name: "fonction", widget: "string" }
+
+          - label: "Contact (formulaire)"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Texte", name: "texte", widget: "text" }
+              - { label: "Adresse du service d'envoi (ne pas modifier)", name: "form_action", widget: "string" }
+              - { label: "Clé d'accès Web3Forms (obtenue sur web3forms.com)", name: "access_key", widget: "string" }
+
+          - label: "Pied de page"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Nom", name: "nom", widget: "string" }
+              - { label: "Slogan", name: "tagline", widget: "string" }
+              - { label: "Activités", name: "activites", widget: "string" }
+              - { label: "Lien LinkedIn", name: "linkedin_url", widget: "string" }
+              - { label: "Lien Instagram", name: "instagram_url", widget: "string" }
+              - { label: "Lien mentions légales", name: "mentions_url", widget: "string" }
+              - { label: "Lien politique de confidentialité", name: "confidentialite_url", widget: "string" }
