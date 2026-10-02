@@ -1,0 +1,276 @@
+{
+  "hero": {
+    "kicker": "Coach professionnel · France & Maroc",
+    "title": "Antonin DENIS",
+    "subtitle": "Coach de dirigeants, managers & équipes",
+    "text": "J'aide les dirigeants et leurs équipes à prendre du recul, créer des déclics et passer à l'action.",
+    "cta_label": "Me contacter",
+    "cta_url": "#contact",
+    "image": "/images/hero.jpg",
+    "stat_1": "+5 000 h",
+    "stat_1_label": "de coaching",
+    "stat_2": "+25 ans",
+    "stat_2_label": "d'expérience",
+    "stat_3": "France & Maroc"
+  },
+  "approche": {
+    "kicker": "Mon approche",
+    "title": "Faire émerger les déclics.<br>Créer le mouvement.",
+    "text_1": "Entrepreneur et producteur dans les médias pendant plus de 25 ans, puis coach professionnel et préparateur mental, j'accompagne dirigeants, managers et équipes dans leurs enjeux de leadership, de transformation et de performance collective.",
+    "text_2": "Mon approche combine écoute, exigence, mise en situation et passage à l'action.",
+    "image": "/images/approche.jpg"
+  },
+  "piliers": [
+    {
+      "numero": "01",
+      "titre": "PRENDRE DU RECUL",
+      "texte": "Sortir du quotidien pour regarder autrement une situation, une relation ou une décision."
+    },
+    {
+      "numero": "02",
+      "titre": "FAIRE ÉMERGER",
+      "texte": "Questionner les évidences et faire émerger de nouvelles possibilités."
+    },
+    {
+      "numero": "03",
+      "titre": "PASSER À L'ACTION",
+      "texte": "Transformer les prises de conscience en décisions et en comportements concrets."
+    }
+  ],
+  "formation_banner_image": "/images/formation-banner.jpg",
+  "formations": {
+    "kicker": "Formations & ateliers",
+    "titre": "Des formations qui privilégient l'exercice & la pratique",
+    "soustitre": "18 thématiques animées par Antonin DENIS, à adapter à vos enjeux.",
+    "liste": [
+      {
+        "titre": "LEADERSHIP AUTHENTIQUE",
+        "texte": "Ajuster ses pratiques managériales, incarner un leadership positif et faire évoluer le niveau de maturité de ses équipes."
+      },
+      {
+        "titre": "MANAGEMENT HYBRIDE",
+        "texte": "Adopter une posture managériale adaptée aux contextes présentiel et distanciel."
+      },
+      {
+        "titre": "MANAGEMENT AGILE",
+        "texte": "Développer la flexibilité, l'adaptabilité et l'innovation au sein des équipes."
+      },
+      {
+        "titre": "MANAGEMENT INTERGÉNÉRATIONNEL",
+        "texte": "Créer des ponts entre générations et instaurer une coopération efficace."
+      },
+      {
+        "titre": "MANAGER COACH",
+        "texte": "Adopter la posture du coach pour faire grandir ses collaborateurs."
+      },
+      {
+        "titre": "PERFORMANCE & ÉMOTIONS",
+        "texte": "Gérer le stress, les émotions et renforcer l'intelligence émotionnelle."
+      },
+      {
+        "titre": "NÉGOCIATION CONQUÉRANTE",
+        "texte": "Optimiser ses ventes, sa rentabilité et son impact relationnel."
+      },
+      {
+        "titre": "INTELLIGENCE COLLECTIVE",
+        "texte": "Favoriser la coopération, la co-création et la responsabilité partagée."
+      },
+      {
+        "titre": "RÉSILIENCE & EMPOWERMENT",
+        "texte": "Transformer les crises en leviers d'évolution et de rebond."
+      },
+      {
+        "titre": "RÉTENTION DES TALENTS & MOTIVATION",
+        "texte": "Engager les collaborateurs dans la durée et révéler leur plein potentiel."
+      },
+      {
+        "titre": "ESTIME DE SOI & ASSERTIVITÉ",
+        "texte": "S'affirmer avec justesse et confiance dans ses interactions professionnelles."
+      },
+      {
+        "titre": "POSITIVISME & BIEN-ÊTRE",
+        "texte": "Instaurer un climat de travail sain, stimulant et porteur de sens."
+      },
+      {
+        "titre": "PRISE DE PAROLE, CONVICTION & MEDIA TRAINING",
+        "texte": "Expliquer, convaincre et inspirer avec impact, y compris face caméra."
+      },
+      {
+        "titre": "CONDUITE DE PROJETS GAGNANTS",
+        "texte": "Allier vision, planification et efficacité jusqu'à la réussite finale."
+      },
+      {
+        "titre": "COMMUNICATION INTERPERSONNELLE",
+        "texte": "Fluidifier les échanges et prévenir les tensions relationnelles."
+      },
+      {
+        "titre": "COACHING D'ÉQUIPE & DE COMITÉ DE DIRECTION",
+        "texte": "Favoriser la synergie, l'alignement et l'intelligence collective."
+      },
+      {
+        "titre": "CONDUITE DE LA TRANSFORMATION & DU CHANGEMENT",
+        "texte": "Accompagner le changement de stratégie et d'organisation."
+      },
+      {
+        "titre": "SYNERGIE INTERCULTURELLE",
+        "texte": "Transformer la diversité culturelle en atout stratégique."
+      }
+    ],
+    "extra": [
+      {
+        "titre": "TEAM BUILDING",
+        "texte": "Des formules basées sur la créativité, le dépassement de soi, la recherche de sens & la cohésion d'équipe."
+      },
+      {
+        "titre": "SUR MESURE",
+        "texte": "D'autres formations sur mesure en fonction de vos besoins."
+      }
+    ]
+  },
+  "references": {
+    "kicker": "Ils me font confiance",
+    "titre": "Des organisations de toutes tailles",
+    "texte": "M'ont fait confiance pour accompagner leurs dirigeants, managers et équipes.",
+    "stat": "+300",
+    "stat_label": "recommandations reçues sur LinkedIn",
+    "liste": [
+      "L'Oréal",
+      "Dior",
+      "Cartier",
+      "TAG Heuer",
+      "Pernod Ricard",
+      "Samsung",
+      "Orange",
+      "BNP Paribas",
+      "Arval",
+      "Société Générale",
+      "Crédit Agricole",
+      "Caisse d'Epargne",
+      "Attijariwafa Bank",
+      "RMA",
+      "Bank of Africa",
+      "BCP Bank",
+      "Capgemini",
+      "Deloitte",
+      "Mazars",
+      "Altran",
+      "Safran",
+      "Stellantis",
+      "Saint-Gobain",
+      "Schneider Electric",
+      "ENGIE",
+      "GRDF",
+      "Enedis",
+      "Holcim",
+      "Colas",
+      "Sonasid",
+      "GEFCO",
+      "Bouygues",
+      "Bel",
+      "Tefal",
+      "Lesieur",
+      "Auchan",
+      "Groupama",
+      "Generali",
+      "Qonto",
+      "PayFit",
+      "Alma",
+      "Pigment",
+      "NTN-SNR",
+      "Free",
+      "SEB",
+      "SoundCloud",
+      "Deezer",
+      "Voodoo",
+      "Ubisoft",
+      "CentraleSupélec EXED",
+      "DGFIP"
+    ]
+  },
+  "parcours": {
+    "kicker": "Mon parcours",
+    "titre": "25 ans d'expérience au service du coaching",
+    "soustitre": "Entrepreneur · Producteur · Manager · Coach",
+    "texte": "Avant de devenir coach, j'ai dirigé des entreprises et produit des projets dans les médias en France et à l'international. Cette expérience me permet de comprendre concrètement les réalités auxquelles sont confrontés les dirigeants et leurs équipes : décisions, pression, changement, management, prise de parole et performance collective.",
+    "image": "/images/parcours.jpg",
+    "chiffres": [
+      {
+        "valeur": "25+",
+        "label": "ans d'entrepreneuriat"
+      },
+      {
+        "valeur": "5 000+",
+        "label": "heures de coaching"
+      },
+      {
+        "valeur": "3 000+",
+        "label": "heures de formation & workshops"
+      },
+      {
+        "valeur": "300+",
+        "label": "recommandations LinkedIn"
+      }
+    ]
+  },
+  "temoignages": {
+    "kicker": "Ils en parlent mieux que moi",
+    "titre": "Extraits de recommandations",
+    "liste": [
+      {
+        "citation": "Ce cours a été d'un impact transformatif, m'apportant une confiance accrue dans ma communication. Sa passion pour le sujet se ressent dans chaque session.",
+        "prenom": "Zayda",
+        "fonction": "Directrice filiale"
+      },
+      {
+        "citation": "Antonin ne se contente pas d'enseigner des compétences ; il crée une expérience humaine profonde et émotionnelle.",
+        "prenom": "Abdelali",
+        "fonction": "Ingénieur, business development"
+      },
+      {
+        "citation": "Un vrai, un humain, Antonin est aussi catalyseur et révélateur de potentiel. Je recommande vivement de travailler avec lui.",
+        "prenom": "Mohamed",
+        "fonction": "Head of Innovation & Digital"
+      },
+      {
+        "citation": "Antonin manages to exude an immense energy and a desire to learn that is hard to match. He adapts very easily to the people he coaches.",
+        "prenom": "Imane",
+        "fonction": "Director, Global Operations"
+      },
+      {
+        "citation": "De grandes qualités humaines, une bienveillance constante. Ceci, avec son expertise en tant que coach, ont rendu son cours indéniablement un des meilleurs de Centrale Supélec.",
+        "prenom": "Fayçal",
+        "fonction": "CEO"
+      },
+      {
+        "citation": "Antonin possède un réel talent pour capter l'attention, encourager les échanges et faire émerger le meilleur de chaque participant.",
+        "prenom": "Achraf",
+        "fonction": "Presales Manager"
+      },
+      {
+        "citation": "Capacité d'écoute, capacité à fédérer et à engager ne sont qu'un petit aperçu de ses qualités. Merci pour cette journée plus qu'instructive.",
+        "prenom": "Nabil",
+        "fonction": "CEO"
+      },
+      {
+        "citation": "Un seul mot : excellent. Un coach qu'on aurait aimé garder.",
+        "prenom": "Tamsir",
+        "fonction": "Logistique & supply chain"
+      }
+    ]
+  },
+  "contact": {
+    "titre": "Parlons de votre enjeu",
+    "texte": "Vous avez une situation, une équipe ou un projet que vous souhaitez faire évoluer ? Écrivez-moi via le formulaire ci-dessous.",
+    "form_action": "https://api.web3forms.com/submit",
+    "access_key": "b939c39c-7909-40fb-a2f8-afc162c635a3"
+  },
+  "footer": {
+    "nom": "ANTONIN DENIS",
+    "tagline": "Coach de dirigeants, managers & équipes",
+    "activites": "Coaching · Team building · Formation · Workshops",
+    "linkedin_url": "https://www.linkedin.com/in/antonindenis/",
+    "instagram_url": "https://www.instagram.com/antonin.denis.coach/",
+    "mentions_url": "#",
+    "confidentialite_url": "#"
+  }
+}

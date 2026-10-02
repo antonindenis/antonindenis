@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Antonin DENIS | Coach de dirigeants, managers & équipes</title>
+<meta name="description" content="Antonin Denis accompagne dirigeants, managers et équipes en coaching individuel, coaching d'équipe, workshops, formation, team building et prise de parole. France & Maroc.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎙️</text></svg>">
+<style>
+:root{--bg:#f6f1e7;--ink:#14213d;--sand:#d9c7a3;--pale:#e8edf2;--muted:#4a5568;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:'Helvetica Neue',Arial,sans-serif;line-height:1.6}
+h1,h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;line-height:1.1;margin:0}
+img{max-width:100%}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6vw;font-size:14px;position:sticky;top:0;background:var(--bg);z-index:10}
+nav .links{display:flex;gap:24px;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none}
+.btn{display:inline-block;background:var(--ink);color:#fff;padding:14px 26px;border-radius:2px;text-decoration:none;font-size:15px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:4vw;align-items:end;padding:4vw 6vw 0}
+.hero h1{font-size:clamp(40px,6vw,76px)}
+.hero .sub{font-family:Georgia,serif;font-size:clamp(20px,2.4vw,30px);margin:18px 0}
+.hero p{max-width:480px;color:var(--muted)}
+.hero img{width:100%;max-height:640px;object-fit:contain;object-position:bottom;mix-blend-mode:multiply}
+.kpi{display:flex;gap:32px;flex-wrap:wrap;margin-top:28px;font-size:14px;color:var(--muted)}
+.kpi b{display:block;color:var(--ink);font-size:20px;font-family:Georgia,serif}
+.tag{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8a7650;margin-bottom:14px}
+.approche{background:var(--pale);padding:8vw 6vw;display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center}
+.approche h2{font-size:clamp(30px,4vw,52px);margin-bottom:20px}
+.approche img{width:100%;border-radius:2px;display:block}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:4vw;padding:6vw}
+.pillars span{font-family:Georgia,serif;color:#8a7650;font-size:22px}
+.pillars h3{font-size:14px;letter-spacing:.14em;margin:8px 0}
+.pillars p{color:var(--muted);margin:0}
+.banner img{width:100%;display:block}
+.formations{padding:6vw 6vw 8vw}
+.formations .head{max-width:640px;margin-bottom:3vw}
+.formations .head p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:#e2d9c6}
+.card{background:var(--bg);padding:26px 24px}
+.card h4{margin:0 0 8px;font-size:14px;letter-spacing:.03em}
+.card p{margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+.extra{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#e2d9c6;margin-top:2px}
+.extra .card{background:var(--pale)}
+.refs{padding:6vw;background:var(--pale)}
+.refs .top{display:grid;grid-template-columns:2fr 1fr;gap:4vw;align-items:end;margin-bottom:4vw}
+.refs .top p{color:var(--muted);max-width:520px}
+.stat{font-family:Georgia,serif;font-size:clamp(36px,4vw,56px)}
+.stat span{display:block;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--muted)}
+.reflist{display:flex;flex-wrap:wrap;gap:10px 28px}
+.reflist span{font-family:Georgia,serif;font-size:15px;color:var(--ink);white-space:nowrap}
+.reflist span:not(:last-child)::after{content:"·";margin-left:28px;color:#b9ac8c}
+.parcours{padding:7vw 6vw;background:var(--ink);color:#f0ead9}
+.parcours .layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:5vw;align-items:center}
+.parcours .layout img{width:100%;border-radius:2px;display:block}
+.parcours .inner{max-width:560px}
+.parcours .tag{color:#c9b98c}
+.parcours h2{font-size:clamp(26px,3.2vw,40px);margin-bottom:18px}
+.parcours p{color:#cdd3de;max-width:600px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:4vw;background:rgba(255,255,255,.15)}
+.stat2{background:var(--ink);padding:24px 16px;text-align:center}
+.stat2 b{display:block;font-family:Georgia,serif;font-size:clamp(28px,3vw,38px)}
+.stat2 span{font-size:12px;color:#aab0bd}
+.testi{padding:6vw}
+.testi .head{max-width:640px;margin-bottom:3vw}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:#e2d9c6}
+.tcard{background:var(--bg);padding:28px 24px;display:flex;flex-direction:column;justify-content:space-between;min-height:230px}
+.tcard blockquote{font-family:Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;margin:0 0 18px;color:var(--ink)}
+.tcard cite{font-style:normal;font-size:12px;color:var(--muted);display:block}
+.tcard cite b{display:block;color:var(--ink);font-size:13px;font-weight:normal;font-family:Georgia,serif}
+.cta{background:var(--ink);color:#f0ead9;padding:8vw 6vw;text-align:center}
+.cta h2{font-size:clamp(30px,4.2vw,54px);max-width:700px;margin:0 auto 20px}
+.cta p{color:#cdd3de;max-width:520px;margin:0 auto 30px}
+.cta .btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.cta .btn2{border:1px solid #f0ead9;color:#f0ead9;padding:14px 26px;text-decoration:none;font-size:15px;border-radius:2px}
+form.contact{max-width:520px;margin:6vw auto 0;display:flex;flex-direction:column;gap:14px}
+form.contact input,form.contact textarea{background:transparent;border:1px solid rgba(240,234,217,.35);color:#f0ead9;padding:14px;font-family:inherit;font-size:14px;border-radius:2px}
+form.contact textarea{min-height:110px;resize:vertical}
+form.contact button{background:var(--sand);border:none;color:var(--ink);padding:14px;font-size:15px;cursor:pointer;border-radius:2px}
+footer{padding:5vw 6vw;text-align:center;color:var(--muted);font-size:13px}
+footer .fname{font-family:Georgia,serif;font-size:18px;color:var(--ink);margin-bottom:6px}
+footer .flinks{margin:14px 0;display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+footer .flinks a{color:var(--muted);text-decoration:none}
+footer .legal{margin-top:18px;font-size:11px;opacity:.7}
+#app{opacity:0;transition:opacity .25s}
+#app.ready{opacity:1}
+@media(max-width:900px){.grid,.extra{grid-template-columns:1fr}.refs .top{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr 1fr}.parcours .layout{grid-template-columns:1fr}}
+@media(max-width:760px){.hero,.approche,.pillars{grid-template-columns:1fr}.hero img{order:-1}nav .links{display:none}}
+@media(max-width:600px){.tgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+async function main(){
+  const res = await fetch('/content/site.json', {cache:'no-store'});
+  const d = await res.json();
+  const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+
+  const pillars = d.piliers.map(p => `
+    <div><span>${esc(p.numero)}</span><h3>${esc(p.titre)}</h3><p>${esc(p.texte)}</p></div>
+  `).join('');
+
+  const formCards = d.formations.liste.map(f => `
+    <div class="card"><h4>${esc(f.titre)}</h4><p>${esc(f.texte)}</p></div>
+  `).join('');
+  const formExtra = d.formations.extra.map(f => `
+    <div class="card"><h4>${esc(f.titre)}</h4><p>${esc(f.texte)}</p></div>
+  `).join('');
+
+  const refItems = d.references.liste.map(n => `<span>${esc(n)}</span>`).join('');
+
+  const chiffres = d.parcours.chiffres.map(c => `
+    <div class="stat2"><b>${esc(c.valeur)}</b><span>${esc(c.label)}</span></div>
+  `).join('');
+
+  const testis = d.temoignages.liste.map(t => `
+    <div class="tcard"><blockquote>« ${esc(t.citation)} »</blockquote><cite><b>${esc(t.prenom)}</b>${esc(t.fonction)}</cite></div>
+  `).join('');
+
+  document.getElementById('app').innerHTML = `
+  <nav><strong>${esc(d.footer.nom)}</strong><div class="links"><a href="#">À propos</a><a href="#formations">Interventions</a><a href="#formations">Formations</a><a href="#refs">Références</a><a href="#temoignages">Témoignages</a><a href="#contact">Contact</a></div></nav>
+
+  <section class="hero">
+    <div>
+      <div class="tag">${esc(d.hero.kicker)}</div>
+      <h1>${d.hero.title.split(' ').join('<br>')}</h1>
+      <div class="sub">${esc(d.hero.subtitle)}</div>
+      <p>${esc(d.hero.text)}</p><br>
+      <a class="btn" href="${d.hero.cta_url}">${esc(d.hero.cta_label)}</a>
+      <div class="kpi">
+        <div><b>${esc(d.hero.stat_1)}</b>${esc(d.hero.stat_1_label)}</div>
+        <div><b>${esc(d.hero.stat_2)}</b>${esc(d.hero.stat_2_label)}</div>
+        <div><b>${esc(d.hero.stat_3)}</b></div>
+      </div>
+    </div>
+    <img src="${d.hero.image}" alt="Antonin DENIS, coach, en intervention">
+  </section>
+
+  <section class="approche">
+    <div>
+      <div class="tag">${esc(d.approche.kicker)}</div>
+      <h2>${d.approche.title}</h2>
+      <p>${esc(d.approche.text_1)}</p>
+      <p>${esc(d.approche.text_2)}</p>
+    </div>
+    <div><img src="${d.approche.image}" alt="Antonin DENIS en échange"></div>
+  </section>
+
+  <section class="pillars">${pillars}</section>
+
+  <div class="banner"><img src="${d.formation_banner_image}" alt="Antonin DENIS en intervention"></div>
+
+  <section class="formations" id="formations">
+    <div class="head"><div class="tag">${esc(d.formations.kicker)}</div><h2 style="font-size:clamp(28px,3.6vw,44px)">${esc(d.formations.titre)}</h2>
+    <p>${esc(d.formations.soustitre)}</p></div>
+    <div class="grid">${formCards}</div>
+    <div class="extra">${formExtra}</div>
+  </section>
+
+  <section class="refs" id="refs">
+    <div class="top">
+      <div><div class="tag">${esc(d.references.kicker)}</div><h2 style="font-size:clamp(28px,3.6vw,44px)">${esc(d.references.titre)}</h2>
+      <p>${esc(d.references.texte)}</p></div>
+      <div class="stat">${esc(d.references.stat)}<span>${esc(d.references.stat_label)}</span></div>
+    </div>
+    <div class="reflist">${refItems}</div>
+  </section>
+
+  <section class="parcours" id="parcours">
+    <div class="layout">
+      <img src="${d.parcours.image}" alt="Antonin DENIS en intervention">
+      <div class="inner">
+        <div class="tag">${esc(d.parcours.kicker)}</div>
+        <h2>${esc(d.parcours.titre)}</h2>
+        <p>${esc(d.parcours.soustitre)}</p>
+        <p>${esc(d.parcours.texte)}</p>
+      </div>
+    </div>
+    <div class="stats">${chiffres}</div>
+  </section>
+
+  <section class="testi" id="temoignages">
+    <div class="head"><div class="tag">${esc(d.temoignages.kicker)}</div><h2 style="font-size:clamp(28px,3.6vw,44px)">${esc(d.temoignages.titre)}</h2></div>
+    <div class="tgrid">${testis}</div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>${esc(d.contact.titre)}</h2>
+    <p>${esc(d.contact.texte)}</p>
+    <form class="contact" id="contact-form" action="${d.contact.form_action}" method="POST">
+      <input type="hidden" name="access_key" value="${esc(d.contact.access_key)}">
+      <input type="hidden" name="subject" value="Nouveau message depuis antonindenis.com">
+      <input type="text" name="name" placeholder="Nom" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      <button type="submit">Envoyer →</button>
+      <p id="form-result" style="font-size:13px;margin:0"></p>
+    </form>
+  </section>
+
+  <footer>
+    <div class="fname">${esc(d.footer.nom)}</div>
+    <div>${esc(d.footer.tagline)}</div>
+    <div style="margin-top:6px">${esc(d.footer.activites)}</div>
+    <div class="flinks"><a href="${d.footer.linkedin_url}">LinkedIn</a><a href="${d.footer.instagram_url}">Instagram</a></div>
+    <div class="legal"><a href="${d.footer.mentions_url}" style="color:inherit">Mentions légales</a> · <a href="${d.footer.confidentialite_url}" style="color:inherit">Politique de confidentialité</a></div>
+  </footer>
+  `;
+  document.getElementById('app').classList.add('ready');
+
+  const form = document.getElementById('contact-form');
+  const result = document.getElementById('form-result');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    result.textContent = 'Envoi en cours...';
+    const data = new FormData(form);
+    fetch(form.getAttribute('action') || 'https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(r => r.json()).then(json => {
+      if (json.success) {
+        result.textContent = 'Merci, votre message a bien été envoyé.';
+        form.reset();
+      } else {
+        result.textContent = "Une erreur est survenue. Vous pouvez m'écrire directement à l'adresse indiquée dans le pied de page.";
+      }
+    }).catch(() => {
+      result.textContent = "Une erreur est survenue. Réessayez dans un instant.";
+    });
+  });
+}
+main().catch(err => {
+  document.getElementById('app').innerHTML = '<p style="padding:6vw;font-family:sans-serif">Erreur de chargement du contenu. Vérifiez que /content/site.json est bien accessible.</p>';
+  console.error(err);
+});
+</script>
+</body>
+</html>
