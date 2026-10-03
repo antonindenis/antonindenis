@@ -1,43 +1,10 @@
 {
-  "hero": {
-    "kicker": "Coach professionnel · France & Maroc",
-    "title": "Antonin DENIS",
-    "subtitle": "Coach de dirigeants, managers & équipes",
-    "text": "J'aide les dirigeants et leurs équipes à prendre du recul, créer des déclics et passer à l'action.",
-    "cta_label": "Me contacter",
-    "cta_url": "#contact",
-    "image": "/images/hero.jpg",
-    "stat_1": "+5 000 h",
-    "stat_1_label": "de coaching",
-    "stat_2": "+25 ans",
-    "stat_2_label": "d'expérience",
-    "stat_3": "France & Maroc"
+  "contact": {
+    "titre": "Parlons de votre enjeu",
+    "texte": "Vous avez une situation, une équipe ou un projet que vous souhaitez faire évoluer ? Écrivez-moi via le formulaire ci-dessous.",
+    "form_action": "https://api.web3forms.com/submit",
+    "access_key": "b939c39c-7909-40fb-a2f8-afc162c635a3"
   },
-  "approche": {
-    "kicker": "Mon approche",
-    "title": "Faire émerger les déclics.<br>Créer le mouvement.",
-    "text_1": "Entrepreneur et producteur dans les médias pendant plus de 25 ans, puis coach professionnel et préparateur mental, j'accompagne dirigeants, managers et équipes dans leurs enjeux de leadership, de transformation et de performance collective.",
-    "text_2": "Mon approche combine écoute, exigence, mise en situation et passage à l'action.",
-    "image": "/images/approche.jpg"
-  },
-  "piliers": [
-    {
-      "numero": "01",
-      "titre": "PRENDRE DU RECUL",
-      "texte": "Sortir du quotidien pour regarder autrement une situation, une relation ou une décision."
-    },
-    {
-      "numero": "02",
-      "titre": "FAIRE ÉMERGER",
-      "texte": "Questionner les évidences et faire émerger de nouvelles possibilités."
-    },
-    {
-      "numero": "03",
-      "titre": "PASSER À L'ACTION",
-      "texte": "Transformer les prises de conscience en décisions et en comportements concrets."
-    }
-  ],
-  "formation_banner_image": "/images/formation-banner.jpg",
   "formations": {
     "kicker": "Formations & ateliers",
     "titre": "Des formations qui privilégient l'exercice & la pratique",
@@ -127,6 +94,13 @@
       }
     ]
   },
+  "approche": {
+    "kicker": "Mon approche",
+    "title": "Faire émerger les déclics.<br>Créer le mouvement.",
+    "text_1": "Entrepreneur et producteur dans les médias pendant plus de 25 ans, puis coach professionnel et préparateur mental, j'accompagne dirigeants, managers et équipes dans leurs enjeux de leadership, de transformation et de performance collective.",
+    "text_2": "Mon approche combine écoute, exigence, mise en situation et passage à l'action.",
+    "image": "/images/approche.jpg"
+  },
   "references": {
     "kicker": "Ils me font confiance",
     "titre": "Des organisations de toutes tailles",
@@ -212,6 +186,23 @@
       }
     ]
   },
+  "piliers": [
+    {
+      "numero": "01",
+      "titre": "PRENDRE DU RECUL",
+      "texte": "Sortir du quotidien pour regarder autrement une situation, une relation ou une décision."
+    },
+    {
+      "numero": "02",
+      "titre": "FAIRE ÉMERGER",
+      "texte": "Questionner les évidences et faire émerger de nouvelles possibilités."
+    },
+    {
+      "numero": "03",
+      "titre": "PASSER À L'ACTION",
+      "texte": "Transformer les prises de conscience en décisions et en comportements concrets."
+    }
+  ],
   "temoignages": {
     "kicker": "Ils en parlent mieux que moi",
     "titre": "Extraits de recommandations",
@@ -258,11 +249,20 @@
       }
     ]
   },
-  "contact": {
-    "titre": "Parlons de votre enjeu",
-    "texte": "Vous avez une situation, une équipe ou un projet que vous souhaitez faire évoluer ? Écrivez-moi via le formulaire ci-dessous.",
-    "form_action": "https://api.web3forms.com/submit",
-    "access_key": "b939c39c-7909-40fb-a2f8-afc162c635a3"
+  "formation_banner_image": "/images/formation-banner.jpg",
+  "hero": {
+    "cta_url": "#contact",
+    "cta_label": "Me contacter",
+    "stat_1": "+5 000 h",
+    "stat_2": "+25 ans",
+    "stat_3": "Français & Anglais",
+    "text": "J'aide les dirigeants et leurs équipes à prendre du recul, créer des déclics et passer à l'action.",
+    "kicker": "Coach professionnel · Paris & Casablanca",
+    "subtitle": "Coach de dirigeants, managers & équipes",
+    "title": "Antonin DENIS",
+    "image": "/images/hero.jpg",
+    "stat_1_label": "de coaching",
+    "stat_2_label": "d'expérience"
   },
   "footer": {
     "nom": "ANTONIN DENIS",
