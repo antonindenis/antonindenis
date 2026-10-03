@@ -30,7 +30,7 @@ a{color:var(--ink)}
 Le site antonindenis.com est édité, à titre personnel, par :<br>
 Antonin Denis<br>
 Adresse : 173, rue du Faubourg Saint-Antoine, 75011 Paris<br>
-Email : antonindenis@gmail.com<br><br>
+Email : <a href="#" class="js-email" data-e="moc.liamg@sinedninotna">(chargement…)</a><br><br>
 L'activité de coaching, formation et team building présentée sur ce site est exclusivement facturée par l'intermédiaire de :<br>
 Diva d'Helios SARL<br>
 RCS Paris 398 062 356
@@ -66,7 +66,14 @@ Ce site peut contenir des liens vers des sites tiers (LinkedIn, Instagram, etc.)
 <p>Les présentes mentions légales sont soumises au droit français.</p>
 
 <h2>Contact</h2>
-<p>Pour toute question relative au site, vous pouvez écrire à <a href="mailto:antonindenis@gmail.com">antonindenis@gmail.com</a>.</p>
+<p>Pour toute question relative au site, vous pouvez écrire à <a href="#" class="js-email" data-e="moc.liamg@sinedninotna">(chargement…)</a>.</p>
+<script>
+document.querySelectorAll('.js-email').forEach(function(el){
+  var email = el.getAttribute('data-e').split('').reverse().join('');
+  el.href = 'mailto:' + email;
+  el.textContent = email;
+});
+</script>
 </div>
 </body>
 </html>
