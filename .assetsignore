@@ -1,5 +1,9 @@
-   wrangler.toml
-   worker.js
-   .assetsignore
-   README.md
-   functions/
+worker.js
+wrangler.toml
+README.md
+.assetsignore
+.git
+.gitignore
+.wrangler
+node_modules
+functions/
